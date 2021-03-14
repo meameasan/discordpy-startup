@@ -22,8 +22,4 @@ async def ping(ctx):
 async def neko(ctx):
     await ctx.send('にゃーん')
 
-@bot.command()
-async def kirinaga(ctx):
-    await ctx.send('えっち')
-    
 bot.run(token)
